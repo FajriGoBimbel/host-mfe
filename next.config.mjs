@@ -1,7 +1,6 @@
 import NextFederationPlugin from "@module-federation/nextjs-mf";
 
-const REMOTE_APP_URL =
-  "https://module-l2keqhzp5-fajrigobimbels-projects.vercel.app";
+const REMOTE_APP_URL = "https://module-psi.vercel.app";
 
 const remotes = (isServer) => {
   const location = isServer ? "ssr" : "chunks";
